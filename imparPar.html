@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PAR OU IMPAR</title>
+</head>
+<body>
+    <script>
+        const ParImpar = prompt("DIGITE O NÚMERO!")
+        while(ParImpar < 11){//enquanto o valor de ParImpar for menor do que 11
+            if(ParImpar % 2===0){//encontra o valor de ParImpar e divida por 2,se o que sobrar for igual a 0,é par(4/2=2,não sobra nada então é 4 é par porque só sobrou 0,ou seja,nada!)
+                document.write(`${ParImpar} é Par!`)
+            }
+            if(ParImpar % 2 !== 0 )//encontra o valor de ParImpar e divida,se o resto sobrar será impar(5/2=2 e sobra 1, então o número 5 será impar,pois o resto sobrou)
+            document.write(`${ParImpar} é Impar!`)
+              ParImpar++//aqui o while vai contar ou pular de 1 em 1 até achar a resposta correta.(digitou 2,ele começa no 1 e vê que não é,após isso pula pra o 2 e vê que é par pois 2===0)
+            
+        }
+        
+    
+   
+
+
+    </script>
+    
+</body>
+</html>
