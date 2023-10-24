@@ -8,7 +8,7 @@ while(i < 2){// enquanto i que é igual a 0 for menor do que 2
 
 let a = 0;
 
-while(a < 11){// enquant a for menor doque 11,comece contar de 11 para baixo
+while(a < 11){// enquanto a(0) for menor doque 11,comece contar de 11(1 em 1) para baixo
     console.log(a)//exiba a contagem
     a++//INCREMENTO - conte de 1 em 1(de 11 até 0)
     
