@@ -7,11 +7,15 @@
     <script src="text.js" type="text/javascript"></script>
 </head>
 <body>
-    <script>
-       let tabuada = prompt("DIGITE SEU NÚMERO : ")
-
+    <script>//tag no html para que possa usar javascript dentro do html(muito bom por sinal)
+       let tabuada = prompt("DIGITE SEU NÚMERO : ")//aqui eu coloquei uma entrada(input) que é uma sintaxe que faz a máquina te pedir pra digitar algo.
        for(o = 1;o < 10; o++){
-        document.write(`<br> ${tabuada} x ${o} = ${tabuada * o}`)
+        document.write(`<br> ${tabuada} x ${o} = ${tabuada * o}`)//o primeiro comando(sintaxe) é a mesma coisa do console.log
+           
+           //o <br> é uma tag html para pular 1 linha,o $ + as chaves {} é usado pra pegar um valor e colocar dentro do texto sem tudo virar string(texto computacional de linguagem de programa)
+           //antes de começar eu abri uma crase ` e depois fechei com outra crase no final da exibição `
+           //usei a crase pra poder juntar tudo e não ficar uma bagunça do tipo(usando sem crase abaixo)
+           //EX: tabuada + "x" + o + " = " tabuada * o
        }
 
        
