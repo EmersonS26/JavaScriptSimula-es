@@ -1,4 +1,4 @@
-//função simples sem parametros,você cria a função com sintaxe de exibição dentro dela
+//função simples sem parametros(valores dentro dos parenteses ao lado da função),você cria a função com sintaxe de exibição dentro dela
 //e para exibir essa função você chama(digita) ela no lado de fora do escopo {}.
 function carro(){
     console.log("carro")
@@ -12,6 +12,6 @@ function checagem(andamento,concluido){//criação de função com parametros de
     
     
 }
-checagem("Processamento","Finalizado")//chamando e dando os valores das variaveis (andamento,concluido) a função para executar ela .
+checagem("Processamento","Finalizado")//chamando e dando os valores dos parametros (andamento,concluido) a função para executar ela .
 //o valor de andamento,concluido será processamento,finalizado no console.log
-//E ao chamar a função ele exibe os valores da variaveis que estão dentro do escopo,parametro.
+//E ao chamar a função ele exibe os valores  que estão dentro do escopo,parametro.
